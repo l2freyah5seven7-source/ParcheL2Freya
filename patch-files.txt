@@ -1,0 +1,4 @@
+# Archivos autorizados para publicar, relativos a la raiz del cliente.
+system/L2.ini
+system/ItemName-e.dat
+system/Weapongrp.dat
