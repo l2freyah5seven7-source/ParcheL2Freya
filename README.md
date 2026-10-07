@@ -28,6 +28,11 @@ SHA-256 y su firma. Versiones posteriores deben usar tags unicos, por ejemplo
 `1.0.0.2`. GitHub impide que usuarios sin permisos escriban en el repositorio;
 las firmas protegen adicionalmente contra manifiestos alterados.
 
+Para corregir un Release existente, revisa primero los archivos, vuelve a
+firmar el manifiesto y solicita expresamente el reemplazo con
+`-ReplaceExisting`. Esta opcion sobrescribe los activos publicos del tag
+indicado.
+
 ## Archivos del primer parche
 
 El primer parche contiene unicamente los tres archivos modificados y
